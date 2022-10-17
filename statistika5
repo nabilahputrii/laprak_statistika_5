@@ -1,0 +1,11 @@
+nabilah=read.delim("clipboard")
+View(nabilah)
+str(nabilah)
+mean(nabilah$Pendapatan)
+t.test(nabilah$Pendapatan, mu=14500)
+
+nabilah=read.delim("clipboard")
+View(nabilah)
+str(nabilah)
+mean(nabilah$Volume)
+t.test(nabilah$Volume, mu=10)
